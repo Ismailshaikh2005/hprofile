@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 jobs:
  Testing:
- runs-on: ubuntu-latest
- steps:
-    - name: echo command
-      run: echo "this is my first github action"
+    runs-on: ubuntu-latest
+    steps:
+        - name: echo command
+          run: echo "this is my first github action"

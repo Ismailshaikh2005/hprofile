@@ -2,7 +2,8 @@
 ###
 - JDK 11
 - Maven 3
-- MySQL 8 
+- MySQL 8
+- JDK 21 optional 
 
 # Technologies 
 - Spring MVC

@@ -6,5 +6,12 @@ jobs:
  Testing:
     runs-on: ubuntu-latest
     steps:
-        - name: echo command
-          run: echo "this is my first github action"
+        - name: code checkout
+          uses: actions/checkout@v4
+
+        - name: Do mvn test
+          run: mvn test
+
+        - name: Do mvn checkstyle
+          run: mvn checkstyle:checkstyle
+          
